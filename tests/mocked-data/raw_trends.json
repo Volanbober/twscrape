@@ -7,557 +7,241 @@
             "type": "TimelineClearCache"
           },
           {
-            "type": "TimelineTerminateTimeline",
-            "direction": "Bottom"
+            "direction": "Bottom",
+            "type": "TimelineTerminateTimeline"
           },
           {
-            "type": "TimelineAddEntries",
             "entries": [
               {
-                "entryId": "trend-Hield",
-                "sortIndex": "1897838079637454848",
                 "content": {
-                  "entryType": "TimelineTimelineItem",
                   "__typename": "TimelineTimelineItem",
+                  "clientEventInfo": {
+                    "component": "TrendingJetfuelNflTop100"
+                  },
+                  "entryType": "TimelineTimelineItem",
                   "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Hield",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Hield&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgFSGllbGQAAA=="
+                    "__typename": "TimelineFrame",
+                    "height": 180,
+                    "itemType": "TimelineFrame",
+                    "payload": "egIAAAAIy0QFQOkF0JAGgPkHPeAGQiwIAAAAM5kCQOkKTd8LAAAAM5kCQOkNTd8OAAAA2cQDQOkPRGoQ+hcRAAAAdeABQOkMAgIDAAB14AFA6QkCAQQAAHXgA0DpAylXAZnyBAIABQAAXb4DQOkA+ZYBW6gCAQYAABIDAQUAAAAAHHcRNzgBOxtr2elipi9EbREBB2VsZW1lbnQWbmZsX3RvcDEwMF9lbnRyeV9wb2ludAAQL25mbC9sZWFndWUvaG9tZQMICQAAAAAcdxE3EzT3en9NixwmJNgowqGXxlSuOmIgEVEzJiJm0AMNAAAA65cbsiKCgsUDCwAAALuB747SgDnuAwwAAADTXTnIilJD8gIBAAAAtjp94AIhAAAAM7P2+AIjAAAAM7P2+AIiAAAA9jI95hEAAwECAAAAABx3ETcFAAAAAAAABEALRWh0dHBzOi8vcGJzLnR3aW1nLmNvbS9tZWRpYS9ITGNOOHkzYWtBRUlGSkQ/Zm9ybWF0PWpwZyZuYW1lPTQwOTZ4NDA5NgYBAwEFAAAAAO2reaZkcAUgPxSdHlYCljwDBAQAAAAAe+T2znPyUwGuxBkwAgwAAACIgp3tAg0AAAC7h1LGAgsAAAAoeavuAAtORkwgVG9wIDEwMAMECAAAAADtq3mmZHAFIEms22R/TYscI4GtX8LlkJKuxBkwAgwAAACKUkPyAgsAAADSgDnuAg0AAAAigoLFAwQDAAAAABm/FQHgDxrbAgwAAACIgp3tAg0AAAC7h1LGAgsAAAAoeavuAAVXYXRjaAMDAgwAAADnlkO+Ag0AAACjYgU7AgsAAADgAqaVCloBEAAAAHbVX2oDAAAAAQcA"
+                  }
+                },
+                "entryId": "frame-JetfuelNflTop100EntryPoint",
+                "sortIndex": "2079663803695366144"
+              },
+              {
+                "content": {
+                  "__typename": "TimelineTimelineModule",
+                  "clientEventInfo": {
+                    "component": "stories"
+                  },
+                  "displayType": "Vertical",
+                  "entryType": "TimelineTimelineModule",
+                  "items": [
+                    {
+                      "entryId": "stories-2079663803695366145-trend-2079212121376645555",
+                      "item": {
+                        "clientEventInfo": {
+                          "component": "stories",
+                          "element": "ai_trend"
+                        },
+                        "itemContent": {
+                          "__typename": "TimelineTrend",
+                          "is_ai_trend": true,
+                          "itemType": "TimelineTrend",
+                          "name": "Football Legend Kevin Keegan Dies at 75 After Cancer Battle",
+                          "social_context": {
+                            "contextImageUrls": [
+                              "https://pbs.twimg.com/profile_images/1955192413535805440/8zGpOErR_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png",
+                              "https://pbs.twimg.com/profile_images/1362868534351650820/LDX86F3V_normal.jpg"
+                            ],
+                            "contextType": "Facepile",
+                            "text": "1 day ago \u00b7 Sports \u00b7 152K posts",
+                            "type": "TimelineGeneralContext"
+                          },
+                          "trend_metadata": {
+                            "url": {
+                              "url": "twitter://trending/2079212121376645555",
+                              "urlType": "DeepLink"
+                            }
+                          },
+                          "trend_url": {
+                            "url": "twitter://trending/2079212121376645555",
+                            "urlType": "DeepLink"
                           }
-                        ]
+                        }
                       }
                     },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "1,699 posts",
-                      "url": {
-                        "url": "twitter://search/?query=Hield&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgFSGllbGQAAA=="
+                    {
+                      "entryId": "stories-2079663803695366145-trend-2079315723982196876",
+                      "item": {
+                        "clientEventInfo": {
+                          "component": "stories",
+                          "element": "ai_trend"
+                        },
+                        "itemContent": {
+                          "__typename": "TimelineTrend",
+                          "is_ai_trend": true,
+                          "itemType": "TimelineTrend",
+                          "name": "ESPN Cuts Ryan Clark Mid-Show in Latest Layoff Wave",
+                          "social_context": {
+                            "contextImageUrls": [
+                              "https://pbs.twimg.com/profile_images/1899605277256589312/7JsdswPN_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/1486363097468129282/ghLus6Sx_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/1148885764488515586/tfOVEK0T_normal.png"
+                            ],
+                            "contextType": "Facepile",
+                            "text": "23 hours ago \u00b7 News \u00b7 191K posts",
+                            "type": "TimelineGeneralContext"
+                          },
+                          "trend_metadata": {
+                            "url": {
+                              "url": "twitter://trending/2079315723982196876",
+                              "urlType": "DeepLink"
                             }
-                          ]
+                          },
+                          "trend_url": {
+                            "url": "twitter://trending/2079315723982196876",
+                            "urlType": "DeepLink"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "entryId": "stories-2079663803695366145-trend-2078661523208302945",
+                      "item": {
+                        "clientEventInfo": {
+                          "component": "stories",
+                          "element": "ai_trend"
+                        },
+                        "itemContent": {
+                          "__typename": "TimelineTrend",
+                          "is_ai_trend": true,
+                          "itemType": "TimelineTrend",
+                          "name": "BTS Lights Up FIFA World Cup Final Halftime Show as Spain Wins Thriller",
+                          "social_context": {
+                            "contextImageUrls": [
+                              "https://pbs.twimg.com/profile_images/1896787457695260672/vDdiN6Mp_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/1362579425804644353/8L3BctZn_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/2075233767501991937/piHJr5v0_normal.jpg"
+                            ],
+                            "contextType": "Facepile",
+                            "text": "2 days ago \u00b7 Entertainment \u00b7 4M posts",
+                            "type": "TimelineGeneralContext"
+                          },
+                          "trend_metadata": {
+                            "url": {
+                              "url": "twitter://trending/2078661523208302945",
+                              "urlType": "DeepLink"
+                            }
+                          },
+                          "trend_url": {
+                            "url": "twitter://trending/2078661523208302945",
+                            "urlType": "DeepLink"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "entryId": "stories-2079663803695366145-trend-2079257485958078744",
+                      "item": {
+                        "clientEventInfo": {
+                          "component": "stories",
+                          "element": "ai_trend"
+                        },
+                        "itemContent": {
+                          "__typename": "TimelineTrend",
+                          "is_ai_trend": true,
+                          "itemType": "TimelineTrend",
+                          "name": "Spain Wins 2026 World Cup with Extra-Time Victory Over Argentina",
+                          "social_context": {
+                            "contextImageUrls": [
+                              "https://pbs.twimg.com/profile_images/2014774801458458624/OYN-tAzQ_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/2067608886165569536/LxoV1r2q_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/2007448817789194242/VzLmM12q_normal.jpg"
+                            ],
+                            "contextType": "Facepile",
+                            "text": "1 day ago \u00b7 Sports \u00b7 113K posts",
+                            "type": "TimelineGeneralContext"
+                          },
+                          "trend_metadata": {
+                            "url": {
+                              "url": "twitter://trending/2079257485958078744",
+                              "urlType": "DeepLink"
+                            }
+                          },
+                          "trend_url": {
+                            "url": "twitter://trending/2079257485958078744",
+                            "urlType": "DeepLink"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "entryId": "stories-2079663803695366145-trend-2079073462081946067",
+                      "item": {
+                        "clientEventInfo": {
+                          "component": "stories",
+                          "element": "ai_trend"
+                        },
+                        "itemContent": {
+                          "__typename": "TimelineTrend",
+                          "is_ai_trend": true,
+                          "itemType": "TimelineTrend",
+                          "name": "Spain Wins 2026 World Cup with Extra-Time Goal Over Argentina",
+                          "social_context": {
+                            "contextImageUrls": [
+                              "https://pbs.twimg.com/profile_images/1741753635158024192/j0m8Ucvv_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/1616533296770416655/AumWVpWu_normal.jpg",
+                              "https://pbs.twimg.com/profile_images/1639897355444174848/UnDipiBn_normal.jpg"
+                            ],
+                            "contextType": "Facepile",
+                            "text": "1 day ago \u00b7 Sports \u00b7 673K posts",
+                            "type": "TimelineGeneralContext"
+                          },
+                          "trend_metadata": {
+                            "url": {
+                              "url": "twitter://trending/2079073462081946067",
+                              "urlType": "DeepLink"
+                            }
+                          },
+                          "trend_url": {
+                            "url": "twitter://trending/2079073462081946067",
+                            "urlType": "DeepLink"
+                          }
                         }
                       }
                     }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAFSGllbGQGAAQAAQgABgAAAAMA"
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
+                  ]
+                },
+                "entryId": "stories-2079663803695366145",
+                "sortIndex": "2079663803695366143"
               },
               {
-                "entryId": "trend-Marchand",
-                "sortIndex": "1897838079637454847",
                 "content": {
-                  "entryType": "TimelineTimelineItem",
-                  "__typename": "TimelineTimelineItem",
-                  "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Marchand",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Marchand&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgITWFyY2hhbmQAAA=="
-                          }
-                        ]
-                      }
-                    },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "3,157 posts",
-                      "url": {
-                        "url": "twitter://search/?query=Marchand&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgITWFyY2hhbmQAAA=="
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAITWFyY2hhbmQGAAQAAggABgAAAAMA"
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "entryId": "trend-Draymond",
-                "sortIndex": "1897838079637454846",
-                "content": {
-                  "entryType": "TimelineTimelineItem",
-                  "__typename": "TimelineTimelineItem",
-                  "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Draymond",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Draymond&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgIRHJheW1vbmQAAA=="
-                          }
-                        ]
-                      }
-                    },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "9,409 posts",
-                      "url": {
-                        "url": "twitter://search/?query=Draymond&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgIRHJheW1vbmQAAA=="
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAIRHJheW1vbmQGAAQAAwgABgAAAAMA"
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "entryId": "trend-Shaq",
-                "sortIndex": "1897838079637454845",
-                "content": {
-                  "entryType": "TimelineTimelineItem",
-                  "__typename": "TimelineTimelineItem",
-                  "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Shaq",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Shaq&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgEU2hhcQAA"
-                          }
-                        ]
-                      }
-                    },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "12K posts",
-                      "url": {
-                        "url": "twitter://search/?query=Shaq&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgEU2hhcQAA"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAEU2hhcQYABAAECAAGAAAAAwA="
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "entryId": "trend-Chuck",
-                "sortIndex": "1897838079637454844",
-                "content": {
-                  "entryType": "TimelineTimelineItem",
-                  "__typename": "TimelineTimelineItem",
-                  "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Chuck",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Chuck&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgFQ2h1Y2sAAA=="
-                          }
-                        ]
-                      }
-                    },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "37.6K posts",
-                      "url": {
-                        "url": "twitter://search/?query=Chuck&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgFQ2h1Y2sAAA=="
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAFQ2h1Y2sGAAQABQgABgAAAAMA"
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "entryId": "trend-Nets",
-                "sortIndex": "1897838079637454843",
-                "content": {
-                  "entryType": "TimelineTimelineItem",
-                  "__typename": "TimelineTimelineItem",
-                  "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Nets",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Nets&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgETmV0cwAA"
-                          }
-                        ]
-                      }
-                    },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "12K posts",
-                      "url": {
-                        "url": "twitter://search/?query=Nets&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgETmV0cwAA"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAETmV0cwYABAAGCAAGAAAAAwA="
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "entryId": "trend-Bengals",
-                "sortIndex": "1897838079637454842",
-                "content": {
-                  "entryType": "TimelineTimelineItem",
-                  "__typename": "TimelineTimelineItem",
-                  "itemContent": {
-                    "itemType": "TimelineTrend",
-                    "__typename": "TimelineTrend",
-                    "name": "Bengals",
-                    "trend_url": {
-                      "url": "twitter://search/?query=Bengals&src=trend_click&pc=true&vertical=trends",
-                      "urlType": "DeepLink",
-                      "urtEndpointOptions": {
-                        "requestParams": [
-                          {
-                            "key": "cd",
-                            "value": "HBgHQmVuZ2FscwAA"
-                          }
-                        ]
-                      }
-                    },
-                    "trend_metadata": {
-                      "domain_context": "Trending in Sports",
-                      "meta_description": "21.9K posts",
-                      "url": {
-                        "url": "twitter://search/?query=Bengals&src=trend_click&pc=true&vertical=trends",
-                        "urlType": "DeepLink",
-                        "urtEndpointOptions": {
-                          "requestParams": [
-                            {
-                              "key": "cd",
-                              "value": "HBgHQmVuZ2FscwAA"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  "feedbackInfo": {
-                    "clientEventInfo": {
-                      "action": "click",
-                      "component": "trends",
-                      "element": "feedback"
-                    },
-                    "feedbackKeys": [
-                      "-1336659320",
-                      "1628041751",
-                      "15718569",
-                      "-619311538",
-                      "-1457103155",
-                      "2103484841"
-                    ],
-                    "feedbackMetadata": "DwABCwAAAAEAAAAHQmVuZ2FscwYABAAHCAAGAAAAAwA="
-                  },
-                  "clientEventInfo": {
-                    "component": "unified_events",
-                    "element": "trend",
-                    "details": {
-                      "timelinesDetails": {
-                        "controllerData": "DAACDAAQDAABCgABo8eUwO2g7DYAAAAA"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "entryId": "cursor-top-1897838079637454849",
-                "sortIndex": "1897838079637454849",
-                "content": {
-                  "entryType": "TimelineTimelineCursor",
                   "__typename": "TimelineTimelineCursor",
-                  "value": "DAAJAAA",
-                  "cursorType": "Top"
-                }
+                  "cursorType": "Top",
+                  "entryType": "TimelineTimelineCursor",
+                  "value": "DAAJAAA"
+                },
+                "entryId": "cursor-top-2079663803695366145",
+                "sortIndex": "2079663803695366145"
+              },
+              {
+                "content": {
+                  "__typename": "TimelineTimelineCursor",
+                  "cursorType": "Bottom",
+                  "entryType": "TimelineTimelineCursor",
+                  "value": "DAADCgABHNxzNf9___wPAAIKAAAAAAAA"
+                },
+                "entryId": "cursor-bottom-2079663803695366142",
+                "sortIndex": "2079663803695366142"
               }
-            ]
+            ],
+            "type": "TimelineAddEntries"
           }
-        ],
-        "responseObjects": {
-          "feedbackActions": [
-            {
-              "key": "-619311538",
-              "value": {
-                "feedbackType": "SeeFewer",
-                "prompt": "Not interested in this",
-                "confirmation": "Thanks. Refresh this page to update these trends.",
-                "feedbackUrl": "/2/guide/insert_feedback/trend_not_interested_in_this_feedback_key.json",
-                "hasUndoAction": false,
-                "confirmationDisplayType": "Inline"
-              }
-            },
-            {
-              "key": "15718569",
-              "value": {
-                "feedbackType": "SeeFewer",
-                "prompt": "This trend is abusive or harmful",
-                "confirmation": "Thanks. Refresh this page to update these trends.",
-                "feedbackUrl": "/2/guide/insert_feedback/trend_abusive_feedback_key.json",
-                "hasUndoAction": false,
-                "confirmationDisplayType": "Inline"
-              }
-            },
-            {
-              "key": "-1457103155",
-              "value": {
-                "feedbackType": "SeeFewer",
-                "prompt": "This trend is a duplicate",
-                "confirmation": "Thanks. Refresh this page to update these trends.",
-                "feedbackUrl": "/2/guide/insert_feedback/trend_duplicate_feedback_key.json",
-                "hasUndoAction": false,
-                "confirmationDisplayType": "Inline"
-              }
-            },
-            {
-              "key": "-1336659320",
-              "value": {
-                "feedbackType": "SeeFewer",
-                "prompt": "The associated content is not relevant",
-                "confirmation": "Thanks. Refresh this page to update these trends.",
-                "feedbackUrl": "/2/guide/insert_feedback/trend_irrelevant_content_feedback_key.json",
-                "hasUndoAction": false,
-                "confirmationDisplayType": "BottomSheet"
-              }
-            },
-            {
-              "key": "1628041751",
-              "value": {
-                "feedbackType": "SeeFewer",
-                "prompt": "This trend is spam",
-                "confirmation": "Thanks. Refresh this page to update these trends.",
-                "feedbackUrl": "/2/guide/insert_feedback/trend_spam_feedback_key.json",
-                "hasUndoAction": false,
-                "confirmationDisplayType": "Inline"
-              }
-            },
-            {
-              "key": "2103484841",
-              "value": {
-                "feedbackType": "SeeFewer",
-                "prompt": "This trend is harmful or spammy",
-                "confirmation": "Thanks. Refresh this page to update these trends.",
-                "feedbackUrl": "/2/guide/insert_feedback/trend_abusive_or_harmful_feedback_key.json",
-                "hasUndoAction": false,
-                "confirmationDisplayType": "BottomSheet"
-              }
-            }
-          ]
-        }
+        ]
       }
     }
   }

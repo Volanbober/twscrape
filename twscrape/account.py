@@ -1,15 +1,20 @@
+import hashlib
 import json
 import os
 import sqlite3
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 
-from httpx import AsyncClient, AsyncHTTPTransport
-
+from .http import HttpClient
+from .http import make_client as _make_http_client
 from .models import JSONTrait
-from .utils import utc
+from .utils import parse_proxy, utc
 
 TOKEN = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
+
+
+def has_required_cookies(cookies: dict[str, str]) -> bool:
+    return all(cookies.get(name) for name in ("auth_token", "ct0"))
 
 
 @dataclass
@@ -50,26 +55,21 @@ class Account(JSONTrait):
         rs["last_used"] = rs["last_used"].isoformat() if rs["last_used"] else None
         return rs
 
-    def make_client(self, proxy: str | None = None) -> AsyncClient:
+    def resolve_proxy(self, proxy: str | None = None) -> str | None:
         proxies = [proxy, os.getenv("TWS_PROXY"), self.proxy]
         proxies = [x for x in proxies if x is not None]
-        proxy = proxies[0] if proxies else None
+        return parse_proxy(proxies[0]) if proxies else None
 
-        transport = AsyncHTTPTransport(retries=3)
-        client = AsyncClient(proxy=proxy, follow_redirects=True, transport=transport)
+    def make_client(self, proxy: str | None = None) -> HttpClient:
+        proxy = self.resolve_proxy(proxy)
+        headers = {**self.headers}
+        headers["user-agent"] = self.user_agent
+        headers["content-type"] = "application/json"
+        headers["authorization"] = TOKEN
+        headers["x-twitter-active-user"] = "yes"
+        headers["x-twitter-client-language"] = "en"
+        if "ct0" in self.cookies:
+            headers["x-csrf-token"] = self.cookies["ct0"]
 
-        # saved from previous usage
-        client.cookies.update(self.cookies)
-        client.headers.update(self.headers)
-
-        # default settings
-        client.headers["user-agent"] = self.user_agent
-        client.headers["content-type"] = "application/json"
-        client.headers["authorization"] = TOKEN
-        client.headers["x-twitter-active-user"] = "yes"
-        client.headers["x-twitter-client-language"] = "en"
-
-        if "ct0" in client.cookies:
-            client.headers["x-csrf-token"] = client.cookies["ct0"]
-
-        return client
+        seed = int(hashlib.sha256(self.username.encode()).hexdigest()[:8], 16)
+        return _make_http_client(proxy=proxy, headers=headers, cookies=self.cookies, seed=seed)
